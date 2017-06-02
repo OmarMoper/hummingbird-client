@@ -8,7 +8,7 @@ titles:
     show:
       episodes: "{title} Episodes"
       characters: "{title} Characters"
-      reviews: "{title} Reviews"
+      reactions: "{title} Reactions"
   not-found: "Not Found"
   server-error: "Server Error"
   users:
@@ -135,13 +135,13 @@ media:
       summary: "Summary"
       episodes: "Episodes"
       characters: "Characters"
-      reviews: "Reviews"
+      reactions: "Reactions"
     sidebar:
-      watch: "Where to Watch"
+      watch: "Watch Online"
     summary:
       ratings:
-        total: "{total} ratings"
-        favorites: "{total} favorites"
+        community: "{rating}% Community Approval"
+        match: "{rating}% Match"
       ranking:
         full:
           popularity: "{type, select,
@@ -178,11 +178,11 @@ media:
         manga_adaptation: "Manga"
         character: "Character"
         other: "Other"
-      reviews:
-        header: "Popular Reviews"
+      reactions:
+        header: "Popular Reactions"
       characters:
         header: "Characters"
-        more: "View All"
+        more: "View all characters"
       titles:
         header: "Alternative Titles"
         en: "English"
@@ -197,7 +197,10 @@ media:
         ko_kr: "Korean"
         synonyms: "Synonyms"
       information:
-        header: "Information"
+        header: "{type, select,
+          anime {Anime}
+          manga {Manga}
+          other {}} Details"
         type: "Type"
         volumes: "Volumes"
         unit: "{type, select,
@@ -219,8 +222,12 @@ media:
           =1 {{length} minutes}
           other {{total} total ({length} minutes each)}}"
         rating: "Rating"
+        expand:
+          false: "More info"
+          true: "Less Info"
       feed:
         header: "Community Feed"
+      trailer: "Play Trailer"
     episodes:
       episode: "Episode"
     characters:
