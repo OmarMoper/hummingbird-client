@@ -101,7 +101,7 @@
     "eslint-plugin-import": "^2.3.0",
     "getstream": "^3.5.0",
     "hoverintent": "^1.0.3",
-    "loader.js": "^4.2.3",
+    "loader.js": "^4.5.0",
     "moment": "^2.18.1",
     "moment-timezone": "0.5.13",
     "postcss-flexbugs-fixes": "^3.0.0",
